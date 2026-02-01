@@ -1,5 +1,5 @@
-   0.011303953s  INFO prepare_target{force=false package_id=ownership v0.1.0 (/home/user/Documents/Rustian/ownership) target="ownership"}: cargo::core::compiler::fingerprint: fingerprint error for ownership v0.1.0 (/home/user/Documents/Rustian/ownership)/Check { test: false }/TargetInner { name: "ownership", doc: true, ..: with_path("/home/user/Documents/Rustian/ownership/src/main.rs", Edition2024) }
-   0.011499536s  INFO prepare_target{force=false package_id=ownership v0.1.0 (/home/user/Documents/Rustian/ownership) target="ownership"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/user/Documents/Rustian/ownership/target/debug/.fingerprint/ownership-50b87cd02990fb0d/bin-ownership`
+   0.009515403s  INFO prepare_target{force=false package_id=ownership v0.1.0 (/home/user/Documents/Rustian/ownership) target="ownership"}: cargo::core::compiler::fingerprint: fingerprint error for ownership v0.1.0 (/home/user/Documents/Rustian/ownership)/Check { test: false }/TargetInner { name: "ownership", doc: true, ..: with_path("/home/user/Documents/Rustian/ownership/src/main.rs", Edition2024) }
+   0.009536414s  INFO prepare_target{force=false package_id=ownership v0.1.0 (/home/user/Documents/Rustian/ownership) target="ownership"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/user/Documents/Rustian/ownership/target/debug/.fingerprint/ownership-50b87cd02990fb0d/bin-ownership`
 
 Caused by:
     No such file or directory (os error 2)
@@ -43,8 +43,8 @@ Stack backtrace:
   25: __libc_start_main_impl
              at ./csu/../csu/libc-start.c:360:3
   26: <unknown>
-   0.087937849s  INFO prepare_target{force=false package_id=ownership v0.1.0 (/home/user/Documents/Rustian/ownership) target="ownership"}: cargo::core::compiler::fingerprint: fingerprint error for ownership v0.1.0 (/home/user/Documents/Rustian/ownership)/Check { test: true }/TargetInner { name: "ownership", doc: true, ..: with_path("/home/user/Documents/Rustian/ownership/src/main.rs", Edition2024) }
-   0.087951109s  INFO prepare_target{force=false package_id=ownership v0.1.0 (/home/user/Documents/Rustian/ownership) target="ownership"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/user/Documents/Rustian/ownership/target/debug/.fingerprint/ownership-6761b0574aea98ec/test-bin-ownership`
+   0.063474981s  INFO prepare_target{force=false package_id=ownership v0.1.0 (/home/user/Documents/Rustian/ownership) target="ownership"}: cargo::core::compiler::fingerprint: fingerprint error for ownership v0.1.0 (/home/user/Documents/Rustian/ownership)/Check { test: true }/TargetInner { name: "ownership", doc: true, ..: with_path("/home/user/Documents/Rustian/ownership/src/main.rs", Edition2024) }
+   0.063486844s  INFO prepare_target{force=false package_id=ownership v0.1.0 (/home/user/Documents/Rustian/ownership) target="ownership"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/user/Documents/Rustian/ownership/target/debug/.fingerprint/ownership-6761b0574aea98ec/test-bin-ownership`
 
 Caused by:
     No such file or directory (os error 2)
